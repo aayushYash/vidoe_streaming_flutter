@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "682103622261",
+    "firebase_url": "https://video-streaming-4fac1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "video-streaming-4fac1",
+    "storage_bucket": "video-streaming-4fac1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682103622261:android:8591023c28fec2de72863c",
+        "android_client_info": {
+          "package_name": "com.example.video_streaming_proj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682103622261-ts661a7v5uo89f84ofstnjf8ngs8b0mq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.video_streaming_proj",
+            "certificate_hash": "1cc172df5d42df9c231836de2a4dda0ae40d7586"
+          }
+        },
+        {
+          "client_id": "682103622261-0jqtk78qbkj6p208hf1kll7stf6ihj00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFQKBn3-3WXPlWc43g_NCtKiFDe1llMZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682103622261-0jqtk78qbkj6p208hf1kll7stf6ihj00.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "682103622261-jik964frnu6gc44ocdt53898v7a1bee0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.videoStreamingProj"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

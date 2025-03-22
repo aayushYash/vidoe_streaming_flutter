@@ -1,0 +1,47 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "video_streaming_proj",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "video_streaming_proj (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "video_streaming_proj (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "type": "dart",
+            "request": "launch",
+            "name": "Emulator 1",
+            "deviceId": "emulator-5554",  // Replace with actual device ID
+            // ... other configuration options
+        },
+        {
+            "type": "dart",
+            "request": "launch",
+            "name": "Emulator 2",
+            "deviceId": "emulator-5556", // Replace with actual device ID
+            // ... other configuration options
+        }
+    ],
+
+"compounds": [
+    {
+        "name": "All Emulators",
+        "configurations": ["Emulator 1", "Emulator 2"]
+    }
+]
+}
